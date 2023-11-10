@@ -13,6 +13,7 @@ void temperatureSensorInit();
 void temperatureSensorUpdate();
 float temperatureSensorReadCelsius();
 float temperatureSensorReadFahrenheit();
+float temperatureLevelControlRead();
 float celsiusToFahrenheit( float tempInCelsiusDegrees );
 
 //=====[#include guards - end]=================================================

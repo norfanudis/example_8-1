@@ -40,6 +40,11 @@ void temperatureSensorInit()
     }
 }
 
+float temperatureLevelControlRead()
+{
+    return lm35.read();
+}
+
 void temperatureSensorUpdate()
 {
     static int lm35SampleIndex = 0;
